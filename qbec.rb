@@ -6,11 +6,11 @@ class Qbec < Formula
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/splunk/qbec/releases/download/v0.10.3/qbec-darwin-amd64.tar.gz"
+    url "https://github.com/harsimranmaan/qbec/releases/download/v0.10.3/qbec-darwin-amd64.tar.gz"
     sha256 "98106d118ee1b6630b7c7ccbc7f69012f54834fed29ebdfa526a2000a2a2be33"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/splunk/qbec/releases/download/v0.10.3/qbec-linux-amd64.tar.gz"
+      url "https://github.com/harsimranmaan/qbec/releases/download/v0.10.3/qbec-linux-amd64.tar.gz"
       sha256 "ff2ca2421ab35e73c37a2cd5c01b185738f6e7c03397b132e69094fd3198b604"
     end
   end
