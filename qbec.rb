@@ -20,6 +20,6 @@ class Qbec < Formula
   end
 
   test do
-    system "#{bin}/qbec --version"
+    system "#{bin}/qbec version"
   end
 end
